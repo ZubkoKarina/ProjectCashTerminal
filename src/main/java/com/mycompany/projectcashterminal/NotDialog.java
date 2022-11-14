@@ -12,7 +12,7 @@ public class NotDialog extends JDialog {
 
         setVisible(false);
 
-        setSize(300, 300);
+        setSize(200, 400);
 
         setLocationRelativeTo(null);
     }

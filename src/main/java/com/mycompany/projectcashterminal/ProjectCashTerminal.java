@@ -38,7 +38,7 @@ public class ProjectCashTerminal extends JFrame implements ActionListener{
             
             
             //Text field
-            JLabel pageLabel = new JLabel("Your value -", JLabel.RIGHT);
+            JLabel pageLabel = new JLabel("Your value -", JLabel.CENTER);
             FlowLayout flo2 = new FlowLayout();
             setLayout(flo2);
             window.add(pageLabel);
@@ -59,7 +59,6 @@ public class ProjectCashTerminal extends JFrame implements ActionListener{
             window.setVisible(true);
             
             //TRAY
-            
             SystemTray tray = SystemTray.getSystemTray();
             Toolkit toolkit = Toolkit.getDefaultToolkit();
             URL url = new URL("https://i.pinimg.com/236x/eb/75/cf/eb75cfcdb05a1f04a46ae26834fa8053.jpg");
